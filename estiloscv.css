@@ -13,7 +13,7 @@ html{
 .inicio{
 	background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)),
 	url("fondo.jpg");
-	background-size: cover; /*revisar estas propiedades esta muy ancho*/
+	background-size: contain; /*revisar estas propiedades esta muy ancho*/
 	background-position: center center;
 	color: #fff;
 }
@@ -59,4 +59,37 @@ html{
 .inicio .contenido-seccion header .nav-bar:hover{ /*sombra blanca fondo nav*/
 	box-shadow: 0 0 35px #fff;
 }
-.inicio .contenido-seccion .info
+.inicio .contenido-seccion .info{
+	padding-bottom: 130px;
+}
+.inicio .contenido-seccion .info h1{
+	font-size: 3rem;
+	letter-spacing: 2px;
+}
+.inicio .contenido-seccion .info h2{
+	font-weight: normal;
+	font-size: 20px;
+	margin-top: -10px;
+	letter-spacing: 2 px;
+}
+.inicio .contenido-seccion .redes{
+	margin: 20px 0;
+}
+.inicio .contenido-seccion .redes a{
+	display: inline-block;
+	text-decoration: none;
+	background-color: #000;
+	color: #21618C;
+	border: 1 px solid #21618C;
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	margin: 0 5px;
+	transition: .3s;
+}
+.inicio .contenido-seccion .redes a:hover{
+	color: #fff;
+	background-color: #21618C;
+	box-shadow: 0 0 20 px #fff;
+}

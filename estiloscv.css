@@ -1,0 +1,62 @@
+/*fuentes*/
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,200;1,300;1,400;1,600;1,700&display=swap');
+*{
+	font-family: "Raleway";
+	margin: 0;
+	padding: 0;
+}
+html{
+	scroll-behavior: smooth;
+}
+
+/* seccion inicio */
+.inicio{
+	background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)),
+	url("fondo.jpg");
+	background-size: cover; /*revisar estas propiedades esta muy ancho*/
+	background-position: center center;
+	color: #fff;
+}
+.inicio .contenido-seccion{
+	max-width: 1000px;
+	margin: auto;
+	text-align: center;
+	padding: 10px;
+}
+.inicio .contenido-seccion header{
+	padding: 30px;
+}
+/*menu lateral */
+.inicio .contenido-seccion header nav{
+	position: fixed;
+	margin-left: 60px;
+	background-color: #21618C;
+	padding: 15px;
+	border-radius: 10px;
+	text-align: left;
+	z-index: 99;
+	display: none; /*revisar para mostrar*/
+}
+.inicio .contenido-seccion header nav a{
+	display: block;
+	color: #fff;
+	text-decoration: none;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+/* no se coloca logo porque no me gusta*/
+.inicio .contenido-seccion header .nav-bar{
+	position: fixed;
+	background-color: #21618C;
+	font-size: 20px;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	line-height: 50px;
+	cursor: pointer;
+	transition: .3s;
+}
+.inicio .contenido-seccion header .nav-bar:hover{ /*sombra blanca fondo nav*/
+	box-shadow: 0 0 35px #fff;
+}
+.inicio .contenido-seccion .info

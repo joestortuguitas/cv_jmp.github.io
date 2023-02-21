@@ -1,8 +1,7 @@
-/*fuentes*/
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,400;0,600;0,700;0,800;1,300;1,500&display=swap');
 
-*{
+
 	font-family: "Monserrat";
 	margin: 0;
 	padding: 0;
@@ -61,7 +60,7 @@ html{
 	box-shadow: 0 0 35px #fff;
 }
 .inicio .contenido-seccion .info{
-	padding-bottom: 130px;
+	padding-bottom: 0px; /*130 era el valor original px*/
 }
 .inicio .contenido-seccion .info h1{
 	font-size: 3rem;
@@ -71,8 +70,9 @@ html{
 .inicio .contenido-seccion .info h2{
 	font-weight: normal;
 	font-size: 20px;
-	margin-top: 0px;
-	letter-spacing: 2 px;
+	margin-top: -20px; 
+	letter-spacing: 2px;
+	margin-bottom: 0;
 }
 .inicio .contenido-seccion .redes{
 	margin: 20px 0;
@@ -81,7 +81,7 @@ html{
 .inicio .contenido-seccion .redes a{
 	display: inline-block;
 	text-decoration: none;
-	background-color: #000;
+	background-color: #fff;
 	color: #21618C;
 	border: 1 px solid #21618C;
 	border-radius: 10%;
@@ -117,8 +117,9 @@ html{
 /*SECCION SOBRE MI*/
 .sobremi{
 	background-color: #e6e6e6;
-	padding: 140px 0 100px 0;
+	padding: 40px 0 100px 0;
 	text-align: center;
+	color: black;
 }
 .sobremi .contenido-seccion{
 	max-width: 1000px;
@@ -127,10 +128,10 @@ html{
 }
 .sobremi .contenido-seccion h3{
 	text-transform: uppercase;
-	font-size: 30px;
+	font-size: 20px;
 }
 .sobremi .contenido-seccion .especial{
-	color: #21618C;
+	color: black;
 	font-weight: bold;
 	margin-top: 15px;
 }

@@ -1,7 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,400;0,600;0,700;0,800;1,300;1,500&display=swap');
-
-
+*{
 	font-family: "Monserrat";
 	margin: 0;
 	padding: 0;
@@ -12,6 +11,7 @@ html{
 /* seccion inicio */
 
 .inicio{
+	background-color: black;
 	background-image: url("fondo.jpg");
 	background-size: cover; /*revisar estas propiedades esta muy ancho*/
 	background-position: center center;
@@ -21,7 +21,7 @@ html{
 	max-width: 1000px;
 	margin: auto;
 	text-align: center;
-	padding: 10px;
+	padding: 0 10px;
 }
 .inicio .contenido-seccion header{
 	padding: 30px;
@@ -60,26 +60,26 @@ html{
 	box-shadow: 0 0 35px #fff;
 }
 .inicio .contenido-seccion .info{
-	padding-bottom: 0px; /*130 era el valor original px*/
+	padding-bottom: 30px; /*130 era mi opcion para el valor original px*/
 }
 .inicio .contenido-seccion .info h1{
 	font-size: 3rem;
 	letter-spacing: 2px;
-	margin-top: -35px;
+	margin-top: -35px; 
 }
 .inicio .contenido-seccion .info h2{
 	font-weight: normal;
 	font-size: 20px;
-	margin-top: -20px; 
+	margin-top: 20px; 
 	letter-spacing: 2px;
 	margin-bottom: 0;
 }
 .inicio .contenido-seccion .redes{
 	margin: 20px 0;
-	margin-top: 100px;
+	margin-top: 30px;/*decia 100 original*/
 }
 .inicio .contenido-seccion .redes a{
-	display: inline-block;
+	display: inline-block; /*decia inline block*/
 	text-decoration: none;
 	background-color: #fff;
 	color: #21618C;
@@ -88,7 +88,7 @@ html{
 	width: 40px;
 	height: 40px;
 	line-height: 40px;
-	margin: 0 5px;
+	margin: 0 5px; /*margin: 0 5px;*/
 	transition: .3s;
 }
 .inicio .contenido-seccion .redes a:hover{
@@ -97,6 +97,8 @@ html{
 	box-shadow: 0 0 20 px #fff;
 }
 /*.inicio .contenido-seccion .foto{
+	position: absolute era mi opcion segunda;
+.inicio .contenido-seccion .foto{
 	position: relative;*/
 }
 .inicio .contenido-seccion .foto img{
@@ -163,7 +165,7 @@ html{
 	margin: 8px 0;
 
 }
-/*SECCION RESUMEN*/
+/*SECCION EXPERIENCIA*/
 .resumen{
 	background-color: #e6e6e6;
 	padding: 140px 0 100px 0;
@@ -180,7 +182,7 @@ html{
 	font-size: 30px;
 }
 .resumen .contenido-seccion .info{
-	text-align: left;
+	text-align: center;
 	display: flex;
 	justify-content: space-between;
 	margin-top: 30px;
@@ -194,6 +196,8 @@ html{
 	font-weight: bold;
 	border: 2px solid #21618C;
 	padding: 10px;
+	line-height: 30px;
+	border-radius: 10%;
 }
 .resumen .contenido-seccion .info .col .table{
 	margin-top: 30px;

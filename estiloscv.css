@@ -96,9 +96,8 @@ html{
 	background-color: #21618C;
 	box-shadow: 0 0 20 px #fff;
 }
+
 /*.inicio .contenido-seccion .foto{
-	position: absolute era mi opcion segunda;
-.inicio .contenido-seccion .foto{
 	position: relative;*/
 }
 .inicio .contenido-seccion .foto img{
@@ -108,7 +107,7 @@ html{
 	position: absolute;
 	left: 50%;
 	top: -140px;
-	transform: translateX(-50%);
+	/*transform:-50%;*/
 }
 
 /*estilos generales*/

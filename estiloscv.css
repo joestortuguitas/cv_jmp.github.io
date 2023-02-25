@@ -129,7 +129,7 @@ html{
 }
 .sobremi .contenido-seccion h3{
 	text-transform: uppercase;
-	font-size: 30px;
+	font-size: 20px;
 }
 .sobremi .contenido-seccion .especial{
 	color: black;
@@ -178,7 +178,7 @@ html{
 }
 .resumen .contenido-seccion h3{
 	text-transform: uppercase;
-	font-size: 30px;
+	font-size: 20px;
 }
 .resumen .contenido-seccion .info{
 	text-align: center;
@@ -233,7 +233,7 @@ html{
 }
 .contacto .contenido-seccion h3{
 	text-transform: uppercase;
-	font-size: 30px;
+	font-size: 20px;
 }
 .contacto .contenido-seccion .fila{
 	display: flex;
@@ -291,4 +291,17 @@ html{
 	.contacto .contenido-seccion .fila{
 		display: block;
 	}
+	.pie-pagina{
+		display: block;
+		text-align: center;
+	}
+}
+
+/*SECCION PIE DE PAGINA */
+
+.pie-pagina {
+background-color: #e6e6e6;
+	padding: 10px 0 10px 0;
+	text-align: center;
+	color: black;
 }

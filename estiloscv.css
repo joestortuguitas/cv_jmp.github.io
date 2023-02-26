@@ -11,11 +11,8 @@ html{
 /* seccion inicio */
 
 .inicio{
-	background-color: black;
-	background-image: url("fondo.jpg");
-	background-size: cover; /*revisar estas propiedades esta muy ancho*/
-	background-position: center center;
-	color: #fff; 
+	background-color: #e6e6e6;
+	
 }
 .inicio .contenido-seccion{
 	max-width: 1000px;
@@ -35,7 +32,7 @@ html{
 	border-radius: 10px;
 	text-align: left;
 	z-index: 99;
-	display: none; /*revisar para mostrar*/
+	display: none; 
 }
 .inicio .contenido-seccion header nav a{
 	display: block;
@@ -60,12 +57,12 @@ html{
 	box-shadow: 0 0 35px #fff;
 }
 .inicio .contenido-seccion .info{
-	padding-bottom: 30px; /*130 era mi opcion para el valor original px*/
+	padding-bottom: 130px; /*130 era mi opcion para el valor original px*/
 }
 .inicio .contenido-seccion .info h1{
 	font-size: 3rem;
 	letter-spacing: 2px;
-	margin-top: -35px; 
+	margin-top: -180px; 
 }
 .inicio .contenido-seccion .info h2{
 	font-weight: normal;
@@ -76,10 +73,11 @@ html{
 }
 .inicio .contenido-seccion .redes{
 	margin: 20px 0;
-	margin-top: 30px;/*decia 100 original*/
+	margin-top: 100px;/*decia 100 original*/
+	padding-bottom: 230px;
 }
 .inicio .contenido-seccion .redes a{
-	display: inline-block; /*decia inline block*/
+	display: inline-block; 
 	text-decoration: none;
 	background-color: #fff;
 	color: #21618C;
@@ -97,18 +95,17 @@ html{
 	box-shadow: 0 0 20 px #fff;
 }
 
-/*.inicio .contenido-seccion .foto{
-	position: relative;*/
+.inicio .contenido-seccion .foto{
+		position: block;
 }
 .inicio .contenido-seccion .foto img{
-	max-width: 200px;
+	max-width: 100px;
 	border-radius: 10%;
 	border: 5px solid #fff;
-	position: absolute;
-	left: 50%;
-	top: -140px;
-	/*transform:-50%;*/
-}
+	position: relative;
+	top: 100px;
+	 /*decia  left 330 0 -45*/
+	}
 
 /*estilos generales*/
 .titulo-seccion{
@@ -295,7 +292,9 @@ html{
 		display: block;
 		text-align: center;
 	}
-}
+	.inicio .foto{
+		display: inline-flex;
+	}
 
 /*SECCION PIE DE PAGINA */
 

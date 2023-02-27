@@ -8,16 +8,13 @@
 html{
 	scroll-behavior: smooth;
 }
-/* seccion inicio */
+/* inicio */
 .inicio{
 	background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)),
 	url("escocia-barriles.jpg");
 	background-size: cover;
 	background-position: center center;
-
-/*.inicio{
-	background-color: #e6e6e6;
-*/	
+	
 }
 .inicio .contenido-seccion{
 	max-width: 1000px;
@@ -166,7 +163,7 @@ html{
 	margin: 8px 0;
 
 }
-/*SECCION EXPERIENCIA*/
+/*EXPERIENCIA*/
 .resumen{
 	background-color: #e6e6e6;
 	padding: 140px 0 100px 0;
@@ -221,7 +218,7 @@ html{
 .resumen .contenido-seccion .info .col table p{
 	font-size: 14px;
 }
-/*SECCION CONTACTO*/
+/*CONTACTO*/
 .contacto{
 	background-color: #21618C;
 	padding: 140px 0 100px 0;
@@ -258,7 +255,7 @@ html{
 	margin-bottom: 10px; 
 }
 
-/*SECCION RESPONSIVE */
+/*RESPONSIVE */
 @media screen and (max-width:800px){
 	.habilidades .contenido-seccion .fila{
 		display: block;
@@ -302,7 +299,7 @@ html{
 	}
 }
 
-/*SECCION PIE DE PAGINA */
+/*PIE DE PAGINA */
 
 .pie-pagina {
 background-color: #e6e6e6;
